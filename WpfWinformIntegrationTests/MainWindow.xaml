@@ -7,6 +7,11 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Button Click="OpenDialog">Click me to show a dialog</Button>
+            <TextBlock Name="txtResult" />
+            <Button Click="OpenForm">Click me to show a new form</Button>
+        </StackPanel>
         
     </Grid>
 </Window>
